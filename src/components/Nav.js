@@ -20,7 +20,7 @@ const Nav = () => {
         duration-500
         justify-between
       '>
-         <img className="h-4 lg:h-7" src="/images/logo.png" alt="Logo"/>
+         <img className="h-4 lg:h-20" src="https://deshcareer.com/logo/short-logo.png" alt="Logo"/>
          <div className='
           flex-row
           ml-8
@@ -36,7 +36,7 @@ const Nav = () => {
           <NavbarItem label={'About Us'}/>
           <NavbarItem label={'Contact Us'}/>
           <NavbarItem label={'Advertise'}/>
-          <button className='bg-red-600 hover:bg-red-700 text-white  font-semibold py-2 px-3 border border-red-100 rounded shadow transition'>Join Now</button>
+          <button className='bg-red-600 hover:bg-red-700 text-white  font-semibold py-2 px-3 border border-red-100 rounded-md shadow transition focus:red-4 '>Join Now</button>
          </div>
       </div>
     </div>
