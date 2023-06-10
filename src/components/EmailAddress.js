@@ -24,13 +24,13 @@ const EmailAddress = () => {
           <input
             type="search"
             id="search"
-            className="block w-full p-6 pl-16 text-md shadow  rounded-lg outline-none placeholder-gray-500"
+            className="block w-full p-6 pl-16  text-md shadow  rounded-lg outline-none placeholder-gray-500 sm:text-sm"
             placeholder="Your E-mail address"
             required
           />
           <button
             type="submit"
-            class="text-white absolute right-2.5 bottom-2.5 bg-red-700    font-medium rounded-md text-md px-16 py-3 dark:bg-red-500"
+            class="text-white absolute right-2.5 bottom-2.5 bg-red-700    font-medium rounded-md text-md lg:px-16 lg:py-3 dark:bg-red-500  sm:py-2 sm:px-8 "
           >
             Join Free
           </button>

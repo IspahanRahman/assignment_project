@@ -1,17 +1,16 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
-const NavbarItem = ({label}) => {
+const NavbarItem = ({label,to,className}) => {
+
   return (
-    <div className='
-      text-black
-      text-lg
-      font-semibold
-      cursor-pointer
-      hover:text-red-600
-      transition
-    '>
+    <NavLink
+      exact
+      to={to}
+     className={className}
+    >
       {label}
-    </div>
+    </NavLink>
   )
 }
 

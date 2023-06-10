@@ -58,7 +58,7 @@ const Footer = () => {
                               <a href="https://discord.gg/4eeurUVvTy" class="hover:text-white">Contact Us</a>
                           </li>
                           <li className='mb-4'>
-                              <a href="https://discord.gg/4eeurUVvTy" class="hover:text-white">Advertise with ss</a>
+                              <a href="https://discord.gg/4eeurUVvTy" class="hover:text-white">Advertise with us</a>
                           </li>
                       </ul>
                   </div>

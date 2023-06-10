@@ -1,8 +1,16 @@
 import React from 'react'
+import Nav from '../components/Nav'
+import Footer from '../components/Footer'
 
 const PrivacyPolicy = () => {
   return (
-    <div>PrivacyPolicy</div>
+    <div
+      className='flex flex-col  h-screen justify between'
+    >
+      <Nav/>
+      
+      <Footer/>
+    </div>
   )
 }
 

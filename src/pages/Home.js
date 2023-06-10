@@ -15,7 +15,7 @@ const Home = () => {
         px-16
         mb-auto
       '>
-        <h1 className='text-6xl text-left font-bold dark:text-whit'>
+        <h1 className='text-5xl text-left font-bold dark:text-whit'>
           Get Smarter about your career
         </h1>
         <p className='text-lg text-left mt-3 mb-4'>Get the <span className='font-semibold'> 5-minute newsletter</span> keeping about smart career</p>
